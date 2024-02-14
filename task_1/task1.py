@@ -4,7 +4,8 @@ from pathlib import Path
 # Task 1
 
 def total_salary(path):
-  
+    
+    
     with open(path,'r',encoding='utf-8') as file:
         salary_list = file.readlines()
         total_salary = 0
