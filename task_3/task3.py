@@ -1,39 +1,3 @@
-# import pathlib
-# import sys
-# from colorama import init, Fore
-
-# init()
-
-
-# def inside(path):
-#         if path.is_dir():
-#            items =  path.iterdir()
-#            for item in items:
-#                print(f'{Fore.BLUE}--{item} {Fore.LIGHTMAGENTA_EX} is a directory')
-#                inside(item)      
-
-#         elif path.is_file():
-#             print(f'{Fore.GREEN}-----{path} {Fore.LIGHTMAGENTA_EX} is a file')
-
-# def display_directory_structure():
-#     if len(sys.argv)<2:
-#         user_input = ''
-#     else:
-#         user_input= sys.argv[1]    
-
-#     path = pathlib.Path(user_input)
-
-#     if path.exists():
-#        inside(path)
-
-#     else:
-#         print(f"{Fore.RED}{path.absolute()} not exist")    
-
-
-# if __name__ == "__main__":
-#     display_directory_structure()
-
-
 
 from pathlib import Path
 import sys
